@@ -80,7 +80,7 @@ Now let's trigger a build in Travis CI:
 
 ## Conlusion 
 
-There you go, DataDog see's no vulns, adn you were able to fetch your HCL programs you wanted. In this case Terraform was important to me, but other applications will be more important to other people at different times. 
+There you go, DataDog see's no vulns, and you were able to fetch your HCL programs you wanted. In this case Terraform was important to me, but other applications will be more important to other people at different times. 
 
 There you have it! You've just used DataDog with Travis CI, again I'm glad to be showing the flexibility and ease of use with Travis CI. 
 
