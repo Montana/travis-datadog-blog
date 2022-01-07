@@ -78,7 +78,7 @@ Now let's trigger a build in Travis CI:
 
 <img width="989" alt="Screen Shot 2022-01-07 at 11 15 04 AM" src="https://user-images.githubusercontent.com/20936398/148595276-042531a6-6f36-44e5-a190-92fbc9572481.png">
 
-## Conlusion 
+## Conclusion 
 
 There you go, DataDog see's no vulns, and you were able to fetch your HCL programs you wanted. In this case Terraform was important to me, but other applications will be more important to other people at different times. 
 
