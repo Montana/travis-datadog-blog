@@ -21,13 +21,12 @@ In this weekly edition of my blog posts, I'm going to show you how to effcitevel
 
 ## Getting started 
 
-Let's get your `environment variables` from DataDog: 
+Let's get and _set_ your `environment variables` from DataDog: 
 
 ```bash
 export DATADOG_API_KEY=foo
 export DATADOG_APP_KEY=bar
 ```
-
 <img width="310" alt="Screen Shot 2022-01-07 at 11 08 02 AM" src="https://user-images.githubusercontent.com/20936398/148594393-03d28334-ce73-4cdd-9d9b-0411cd592730.png">
 
 Get your credentials within DataDog, then port them over to Travis CI. Since this is a Go project I've selected, this is how our `.travis.yml` is going to look like:
@@ -51,13 +50,14 @@ branches:
   only:
   - master
   - v2.0
-  ```
+```
  
 You can in theory remove `-v2.0` from the branches, make sure you have all the proper HCL programs specified. You can run:
 
 ```bash
 datadog-fetch-hcl -id <dashboard id> -title <resource title>
 ```
+
 ## Metrics
 
 Here are some metrics DataDog will grab: 
@@ -70,7 +70,7 @@ Here are some metrics DataDog will grab:
 | travis_ci.job.finished (count)    	| Count of finished jobs Shown as job                              	|
 | travis_ci.job.queued_time (gauge) 	| Time jobs spent waiting in queue before starting Shown as second 	|
 
-Basically the duration of the build, and if there's any 3rd party factors causing a slowdown if there is one. Make sure you're sill logged into DataDog:
+Basically the duration of the build, amongst other nuance detailes, and if there's any 3rd party factors causing a slowdown if there is one. Make sure you're sill logged into DataDog:
 
 <img width="793" alt="Screen Shot 2022-01-07 at 11 13 42 AM" src="https://user-images.githubusercontent.com/20936398/148595131-be4ba1cc-cf7a-4766-a431-bce4850b0c1e.png">
 
