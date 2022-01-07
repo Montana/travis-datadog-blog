@@ -70,6 +70,8 @@ Here are some metrics DataDog will grab:
 | travis_ci.job.finished (count)    	| Count of finished jobs Shown as job                              	|
 | travis_ci.job.queued_time (gauge) 	| Time jobs spent waiting in queue before starting Shown as second 	|
 
+## What is DataDog exactly counting?
+
 Basically the duration of the build, amongst other nuance detailes, and if there's any 3rd party factors causing a slowdown if there is one. Make sure you're sill logged into DataDog:
 
 <img width="793" alt="Screen Shot 2022-01-07 at 11 13 42 AM" src="https://user-images.githubusercontent.com/20936398/148595131-be4ba1cc-cf7a-4766-a431-bce4850b0c1e.png">
