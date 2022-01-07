@@ -13,7 +13,7 @@ tags:
   - community
 ---
 
-![TCI-Graphics for AdsBlogs (4)](https://user-images.githubusercontent.com/20936398/147167228-e9dfe784-779f-4da2-acc8-4effd2c463db.png)
+![TCI-Graphics for AdsBlogs (4)](https://user-images.githubusercontent.com/20936398/148598812-59e25905-a6a4-4cb0-8147-d30e500fe8ce.png)
 
 In this weekly edition of my blog posts, I'm going to show you how to effcitevely pull HCL files (Terraform, Vault, Vagrant) and more using Travis CI and DataDog. Take a seat, this is going to be a goodie. 
 
@@ -76,7 +76,9 @@ Basically the duration of the build, and if there's any 3rd party factors causin
 
 Now let's trigger a build in Travis CI: 
 
-<img width="989" alt="Screen Shot 2022-01-07 at 11 15 04 AM" src="https://user-images.githubusercontent.com/20936398/148595276-042531a6-6f36-44e5-a190-92fbc9572481.png">
+<img width="1326" alt="Screen Shot 2022-01-07 at 11 47 00 AM" src="https://user-images.githubusercontent.com/20936398/148598966-bef44d7a-44f2-4bfc-9b50-0a0c2d0b9124.png">
+
+As you can tell, we've had a successful build with DataDog and Travis CI!
 
 ## Conclusion 
 
