@@ -78,3 +78,12 @@ Now let's trigger a build in Travis CI:
 
 <img width="989" alt="Screen Shot 2022-01-07 at 11 15 04 AM" src="https://user-images.githubusercontent.com/20936398/148595276-042531a6-6f36-44e5-a190-92fbc9572481.png">
 
+## Conlusion 
+
+There you go, DataDog see's no vulns, adn you were able to fetch your HCL programs you wanted. In this case Terraform was important to me, but other applications will be more important to other people at different times. 
+
+There you have it! You've just used DataDog with Travis CI, again I'm glad to be showing the flexibility and ease of use with Travis CI. 
+
+As always if you have any questions, any questions at all, please email me at [montana@travis-ci.org](mailto:montana@travis-ci.org).
+
+Happy building!
